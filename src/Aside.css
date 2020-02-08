@@ -1,0 +1,45 @@
+.Aside {
+  color: white;
+  margin: auto auto auto 120px;
+  width: 540px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1000px) {
+  .Aside {
+    margin: auto;
+  }
+}
+
+.Aside h1 {
+  font-size: 24px;
+}
+
+.Aside h3 {
+  font-size: 16px;
+}
+
+.search-input {
+  background-color: rgba(72, 110, 131, 0.6);
+  display: block;
+  width: 180px;
+  border: none;
+  padding: 8px 6px;
+  border-radius: 12px;
+  margin: 12px auto 0;
+  color: white;
+  text-align: auto;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.search-input::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.search-input:focus {
+  border: none;
+}
